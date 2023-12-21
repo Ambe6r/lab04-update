@@ -28,8 +28,6 @@ body:
         - "New Feature"
         - "New Feature 2"
       default: 0
-    validations:
-      required: true
   - type: dropdown
     id: os
     attributes:
@@ -46,6 +44,7 @@ body:
       label: What are the details of your suggestion?
       description: Explain some reason
       render: shell
+      value: "Feature details!"
 
 ---
  
